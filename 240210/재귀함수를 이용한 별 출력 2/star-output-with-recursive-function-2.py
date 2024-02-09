@@ -5,7 +5,7 @@ def star(x):
             print('* '*i,end="")
         else:
             print('* '*i)
-    for i in range(x): 
+    for i in range(x+1): 
         print('* '*i)        
     
     
