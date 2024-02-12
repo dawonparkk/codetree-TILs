@@ -27,5 +27,5 @@ def get_num(n):
     # n과 홀짝이 같은 수만을 재귀함수로 호출합니다.
     return get_num(n - 2) + n
 
-
+n = int(input())
 print(get_num(n))
