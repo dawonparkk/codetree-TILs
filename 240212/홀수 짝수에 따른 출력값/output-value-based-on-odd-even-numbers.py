@@ -9,5 +9,5 @@ def num(n):
             add+=i
         return add
 
-#n = int(input())
-print(num(8))
+n = int(input())
+print(num(n))
